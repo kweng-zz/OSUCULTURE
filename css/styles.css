@@ -378,7 +378,7 @@ nav.scrolled {
     right: 0;
     width: 55%;
     height: 100%;
-    background-image: url('../public/images/kyrie_crossover.png');
+    background-image: url('/public/images/kyrie_crossover.png');
     background-size: cover;
     background-position: center top;
     z-index: 1;
@@ -637,7 +637,7 @@ nav.scrolled {
 .abstract-bg {
     position: absolute;
     inset: 0;
-    background-image: url('../public/images/basketball_abstract.png');
+    background-image: url('/public/images/basketball_abstract.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
