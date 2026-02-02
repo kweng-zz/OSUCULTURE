@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OSU Culture - Elite basketball training for the next generation of athletes. Join the movement and redefine what's possible.">
+    <meta name="theme-color" content="#FF4D00">
+    <title>OSU CULTURE | Elite Basketball Training</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600;700&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">OSU CULTURE</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#training">Training</a>
+            <a href="#apparel">Apparel</a>
+            <a href="#contact">Join Us</a>
+        </div>
+        <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#home">Home</a>
+        <a href="#training">Training</a>
+        <a href="#apparel">Apparel</a>
+        <a href="#contact">Join Us</a>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content">
+            <span class="hero-eyebrow">Elite Basketball Training</span>
+            <h1 class="hero-title">
+                REDEFINE
+                <span class="accent">THE GAME</span>
+            </h1>
+            <p class="hero-subtitle">
+                Where raw talent meets relentless training. 
+                Join a community of athletes who refuse to settle for average.
+            </p>
+            <a href="#contact" class="btn">
+                Join the Culture
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+        <div class="hero-bg"></div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+        </div>
+    </header>
+
+    <!-- Training Section -->
+    <section class="training" id="training">
+        <div class="training-wrapper">
+            <div class="training-image reveal">
+                <img src="public/images/training_scene.png" alt="Intense basketball training session">
+            </div>
+            <div class="training-content reveal delay-2">
+                <h2 class="section-title">Unmatched<br>Intensity</h2>
+                <p class="text-block">
+                    Experience a training environment like no other. At OSU Culture, 
+                    we don't just practice—we push boundaries. Our high-performance 
+                    program is designed to forge resilience, precision, and explosive power.
+                </p>
+                <div class="feature-list">
+                    <div class="feature-item">Elite Coaching Staff</div>
+                    <div class="feature-item">Advanced Performance Analytics</div>
+                    <div class="feature-item">Personalized Development Plans</div>
+                    <div class="feature-item">Competition-Ready Mindset Training</div>
+                </div>
+                <a href="#contact" class="btn btn-outline">View Programs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Abstract Section -->
+    <section class="abstract">
+        <div class="abstract-bg"></div>
+        <div class="abstract-overlay"></div>
+        <div class="abstract-content reveal">
+            <h2>The Art of<br>The Sport</h2>
+            <p>
+                Basketball is more than a game—it's an expression of energy, 
+                rhythm, and life. Immerse yourself in the culture.
+            </p>
+        </div>
+    </section>
+
+    <!-- Apparel Section -->
+    <section class="apparel" id="apparel">
+        <h2 class="section-title center">Official Gear</h2>
+        <div class="product-grid">
+            <div class="product-card reveal">
+                <div class="product-image">
+                    <img src="public/images/jersey.png" alt="OSU Elite Jersey - Black with orange accents">
+                </div>
+                <h3>OSU Elite Jersey</h3>
+                <p class="price">$45.00</p>
+                <button class="btn-sm">Add to Cart</button>
+            </div>
+            <div class="product-card reveal delay-1">
+                <div class="product-image">
+                    <img src="public/images/shorts.png" alt="Pro Cut Shorts - Black with orange stripes">
+                </div>
+                <h3>Pro Cut Shorts</h3>
+                <p class="price">$35.00</p>
+                <button class="btn-sm">Add to Cart</button>
+            </div>
+            <div class="product-card reveal delay-2">
+                <div class="product-image">
+                    <img src="public/images/hoodie.png" alt="Culture Hoodie - Black heavyweight hoodie">
+                </div>
+                <h3>Culture Hoodie</h3>
+                <p class="price">$60.00</p>
+                <button class="btn-sm">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title center">Join the Team</h2>
+        <form class="contact-form reveal">
+            <div class="form-group">
+                <input type="text" name="name" placeholder="Full Name" required aria-label="Full Name">
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="Email Address" required aria-label="Email Address">
+            </div>
+            <div class="form-group">
+                <select name="interest" required aria-label="Interest">
+                    <option value="" disabled selected>Interested In...</option>
+                    <option value="training">Training Programs</option>
+                    <option value="team">Joining the Team</option>
+                    <option value="apparel">Apparel & Merchandise</option>
+                    <option value="partnership">Partnership Opportunities</option>
+                </select>
+            </div>
+            <button type="submit" class="btn">
+                Submit Interest
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">OSU CULTURE</div>
+        <p>&copy; 2026 OSU Culture. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
